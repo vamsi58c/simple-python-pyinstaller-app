@@ -29,5 +29,5 @@ pipeline {
         }
     }
 }  
-/* test trigger */
+/* Test trigger */
 
