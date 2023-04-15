@@ -17,8 +17,8 @@ class TestCalc(unittest.TestCase):
         """
         Test that the addition of two floats returns the correct result
         """
-        result1 = calc.add2('10.5', 2)
-        self.assertEqual(result1, 12.5)
+        result2 = calc.add2('10.5', 2)
+        self.assertEqual(result2, 12.5)
 
     def test_add_strings(self):
         """
