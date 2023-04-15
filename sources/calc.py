@@ -15,6 +15,8 @@ def conv(value):
             return float(value)
         except ValueError:
             return str(value)
+        except Exception:
+            return str(value)
 
 # The 'add2' function itself
 def add2(arg1, arg2):
